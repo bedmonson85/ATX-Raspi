@@ -1,4 +1,6 @@
 # ATX-Raspi Script by LowPowerLab modified to use the I/O on P5 of the Raspberry Pi
+This adaptation was originally made by Mike Tranchemontagne here: http://www.mikesmicromania.com/2013/07/atxraspi-automatic-power-switch-for-r-pi.html
+Thanks Mike!
 
 ##ATXRaspi is a smart power controller for RaspberryPi that allows you to poweroff your Pi from [a momentary switch (with LED status)](https://lowpowerlab.com/shop/LEDSwitch).
 
