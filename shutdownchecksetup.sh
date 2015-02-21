@@ -1,6 +1,6 @@
 echo '#!/bin/bash
 
-#This is GPIO 28 (P5-3 on the pinout diagram).
+#This is GPIO 28 (P5-3 on the pinout diagram). 
 #This is an input from ATXRaspi to the Pi.
 #When button is held for ~3 seconds, this pin will become HIGH signalling to this script to poweroff the Pi.
 SHUTDOWN=28
