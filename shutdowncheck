@@ -3,16 +3,16 @@
 PATH=/usr/bin:/home/pi/wiringPi/gpio
 
 echo "ATXRaspi shutdown script starting..."
-echo "Asserting pins (7=in,low; 8=out,high)"
+echo "Asserting pins (28=in,low; 29=out,high)"
 
-gpio -g mode 7 in
-gpio -g write 7 0
-gpio -g mode 8 out
-gpio -g write 8 1
+gpio -g mode 28 in
+gpio -g write 28 0
+gpio -g mode 29 out
+gpio -g write 29 1
 
 while [ 1 ]; do
-  if [ "$(/home/pi/wiringPi/gpio/gpio -g read 7)" = "1" ]; then
-    echo "PIN7 requested a SYSTEM HALT !"
+  if [ "$(/home/pi/wiringPi/gpio/gpio -g read 28)" = "1" ]; then
+    echo "PIN28 requested a SYSTEM HALT !"
     sudo poweroff
     break
   fi
