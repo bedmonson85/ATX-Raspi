@@ -12,7 +12,7 @@ Thanks Mike!
 
 ##Setup/install (recommended):
 Log into your Pi an run these commands once:
-- sudo wget https://raw.githubusercontent.com/bedmonson85/ATX-Raspi-P5/master/shutdownchecksetup.sh
+- sudo wget https://raw.githubusercontent.com/bedmonson85/ATX-Raspi/master/shutdownchecksetup.sh
 - sudo bash shutdownchecksetup.sh
 - sudo rm shutdownchecksetup.sh
 - sudo reboot
